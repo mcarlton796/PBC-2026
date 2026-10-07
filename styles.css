@@ -164,7 +164,7 @@ h1 a{
 #day{
     font-family: "Video", monospace;
     color: white;
-    margin: 10px auto 0px 10px;
+    margin: 10px auto 0px 19px;
     font-size: 1.3em;
     letter-spacing: 1px;
 }
@@ -172,7 +172,7 @@ h1 a{
 #time{
     font-family: "Video", monospace;
     color: white;
-    margin: 0px auto 10px 10px;
+    margin: 0px auto 10px 27px;
     font-size: 1.1em;
 }
 
@@ -180,10 +180,12 @@ h1 a{
     display: grid;
     grid-template-columns: 3fr 1fr;
     height: 200px;
+    margin-top: -20px;
 }
 
 #blocky-block{
-    margin-right: 20px;
+    margin: 20px 20px 0px 0px;
+
 }
 
 #announcement{
@@ -222,9 +224,87 @@ h1 a{
     background-color: var(--grey2);
     margin: 0px 20px 20px 0px;
     transform: translateX(398px) translateY(-180px) skew(45deg);
-    /* clip-path: inset(160px 0 0 0);  */
 }
 
 #ad-1{
     background-color: var(--grey);
+    height: 220px;
+}
+
+#info{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+}
+
+#music{
+    
+    background-color: rgb(243, 240, 235);
+}
+
+#music h3{
+    padding: 5px 10px;
+    background-color: red;
+    font-family: "Video", monospace;
+    font-size: 1.1em;
+    color: white;
+}
+
+.music-entry{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 3px 10px 0px 10px;
+    border-bottom: 1px solid var(--grey2);
+    border-right: 1px solid var(--grey2);
+}
+
+.music-entry img{
+    width: 100%;
+}
+
+.music-entry div:nth-child(2){
+    margin: auto auto auto 10px;
+}
+
+.music-entry h4{
+    font-family: "Newbery Sans", sans-serif;
+    font-weight: 600;
+}
+
+.music-entry p{
+    font-family: "Newbery Sans", sans-serif;
+}
+
+#news{
+    background-color: rgb(223, 222, 180);
+    
+}
+
+#news h3{
+    padding: 5px 10px;
+    background-color: rgb(116, 115, 62);
+    font-family: "Video", monospace;
+    font-size: 1.1em;
+    color: white;
+}
+
+.new-entry{
+    padding: 0px 10px;
+}
+
+.new-entry img{
+    width: 12px;
+    margin: 1px 1px 0 0;
+    float: left;
+}
+
+.new-entry p{
+    font-family: "Newbery Sans", sans-serif;
+}
+
+#im-flexin-my-fuckin-nutsack{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 88%;
 }
