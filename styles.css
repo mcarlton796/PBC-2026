@@ -91,9 +91,10 @@ header img{
 
 h1{
     color: var(--blue2);
-    font-family: "Newbery Sans", sans-serif;
+    font-family: "Video", sans-serif;
     font-size: 1.50em;
     font-weight: 600;
+    filter: drop-shadow(7px 7px 2px rgba(0, 0, 0, 0.577));
     margin: auto auto 20px 0px;
 }
 
