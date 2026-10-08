@@ -84,7 +84,7 @@ header img{
 }
 
 #top-logo{
-    background-color: var(--blue2);
+    /* background-color: var(--blue2); */
     margin: auto 10px auto 20px;
     padding: 5px;
 }
@@ -307,4 +307,33 @@ h1 a{
     flex-direction: column;
     justify-content: space-around;
     height: 88%;
+}
+
+#community h3{
+    padding: 5px 10px;
+    background-color: rgb(6, 155, 241);
+    font-family: "Video", monospace;
+    font-size: 1.1em;
+    color: white;
+}
+
+#community{
+    background-color: var(--blue2);
+}
+
+#peanitz{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 88%;
+    padding: 0px 10px;
+}
+
+.community-entry h4{
+    font-family: "Newbery Sans", sans-serif;
+    font-weight: 600;
+}
+
+.community-entry p{
+    font-family: "Newbery Sans", sans-serif;
 }
