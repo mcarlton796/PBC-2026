@@ -368,6 +368,10 @@ h1 a{
     padding: 0px 10px;
 }
 
+.community-entry{
+    margin: 5px auto;
+}
+
 .community-entry h4{
     font-family: "Newbery Sans", sans-serif;
     font-weight: 600;
