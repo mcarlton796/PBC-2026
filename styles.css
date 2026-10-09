@@ -284,6 +284,17 @@ h1 a{
     border-right: 1px solid var(--grey2);
 }
 
+.music-entry a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.2s;
+}
+
+.music-entry a:hover{
+    color: blue;
+    transition: 0.1s;
+}
+
 .music-entry img{
     width: 100%;
 }
