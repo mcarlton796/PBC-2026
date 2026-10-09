@@ -380,3 +380,16 @@ h1 a{
 .community-entry p{
     font-family: "Newbery Sans", sans-serif;
 }
+
+footer {
+    text-align: center;
+}
+
+footer p{
+    color: grey;
+}
+
+footer p a{ 
+    color: red;
+    text-decoration: underline;
+}
